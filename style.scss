@@ -1,0 +1,68 @@
+/* first thing to do when you create a page */
+
+* {
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 70px; */
+    /* border: 1px solid red; */
+}
+
+.PH {
+    width: 100%;
+    height: 300px;
+}
+
+.I1 {
+    background-color: red;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    /* Serri abstand zusammen */
+}
+
+.content {
+    background-color: rgb(30, 235, 47);
+}
+
+.flex {
+    display: flex;
+    /* use this becuase it is easy maybe */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+}
+
+.con1 {
+    // border: 4px solid black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 150px;
+}
+
+.Ba {
+    width: 200px;
+    height: 200px;
+}
+
+.I2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.I3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.L1 {
+    font-weight: bolder;
+}
